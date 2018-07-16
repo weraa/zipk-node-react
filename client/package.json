@@ -1,0 +1,35 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "appmetrics-zipkin": "^1.1.0",
+    "axios": "^0.18.0",
+    "cls-bluebird": "^2.0.1",
+    "continuation-local-storage": "^3.2.0",
+    "jaeger-client": "^3.11.0",
+    "opentracing": "^0.14.3",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-scripts": "1.1.4",
+    "react-tracing": "^0.1.5",
+    "request": "^2.87.0",
+    "request-promise": "latest",
+    "uniq": "^1.0.1",
+    "zipkin": "^0.13.0",
+    "zipkin-context-cls": "^0.13.0",
+    "zipkin-instrumentation-axios": "^0.1.0",
+    "zipkin-instrumentation-fetch": "^0.13.0",
+    "zipkin-transport-http": "^0.13.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1"
+  }
+}
